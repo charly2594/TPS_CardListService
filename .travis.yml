@@ -2,10 +2,12 @@ language: java
 ##install: true
 
 os: linux
-#whitelist
+##jdk: oraclejdk8
+
+# whitelist
 branches:
-        only:
-                -master
+  only:
+    - master
 script:
-        -mvn compile
-        -mvn package
+  -mvn compile
+  -mvn package
