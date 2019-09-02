@@ -9,4 +9,4 @@ branches:
   only:
   - master
 script:
-  -mvn compile && mvn package
+  - mvn compile && mvn package
