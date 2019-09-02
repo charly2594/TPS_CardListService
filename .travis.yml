@@ -1,0 +1,11 @@
+language: java
+##install: true
+
+os: linux
+#whitelist
+branches:
+        only:
+                -master
+script:
+        -mvn compile
+        -mvn package
